@@ -1,0 +1,228 @@
+
+/* Apply To ALL */
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   
+    
+}
+
+/* Body info */
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right, #0e1b66,#2b1568 ,#423151);
+    background-image: url(/MyResume/images/—Pngtree—purple\ tanabata\ fantasy\ starry\ sky_7218696.png);
+    background-repeat: no-repeat;
+    
+}
+
+/* Tiny Logo Info */
+
+#navLogo{
+  width: 60px;
+  height: 60px;
+  padding: 1%;
+  filter: invert(1);
+  cursor: pointer;
+}
+
+#navLogo:hover{
+  transition: 1s;
+  transform: rotate(2160deg);
+}
+
+/* Header Information */
+
+#header:hover{
+    transition: 1s;
+}
+
+#header{
+  
+    background-color: #180038cb;
+    list-style: none;
+    transition: 1s;
+    font-size: 23px;
+    width: 100vw;
+    height: fit-content;
+    position: relative;
+   
+}
+
+/* Header Nav Tabs */
+
+#linkList{
+    display: flex;
+    flex-direction: nowrap;
+   justify-content: space-around;
+    padding: 2%;
+    margin-right: 20px;
+    cursor: pointer;
+    list-style: none;
+    color: whitesmoke;
+    float: right;
+}
+
+#linkList > div{
+  
+    
+    cursor: pointer;
+    
+    list-style: none;
+    color: whitesmoke;
+
+    
+}
+
+
+#linkList>div:hover{
+    font-size: larger;
+    transition: 1s;
+    color: #fff38d;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: pink;
+    text-decoration:none;
+    color: #fff38d;
+  }
+
+  #home{
+    margin-right: 5%;
+  }
+  #about{
+    margin-right: 5%;
+  }
+  #program{
+    margin-right: 5%;
+  }
+  #contact{
+    margin-right: 5%;
+  }
+ 
+
+/* Central Logo */
+
+  #mainLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    top:15%;
+    left:25%;
+  }
+
+  #logo{
+    width: 1000px;
+    height: 500px;
+    filter: invert(1);
+  }
+
+/* Super Basic Info */
+
+  #info:hover{
+    transition:1.5s;
+    transform:scale(1.4);
+  }
+
+  #info{
+    background-color: #200429c4;
+    border: 5px solid black;
+    position: absolute;
+    top: 75%;
+    margin-left:15%;
+    margin-right: 15%;
+    padding: 1%;
+    text-align: center;
+    color: #b1b8dd;
+    
+  }
+
+  /* My Programs Display Area */
+
+#programsFlex{
+  width: 80vw;
+  height: 300px;
+  margin-left: 10%;
+  top: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  position:absolute;
+  justify-content:space-between;
+  
+
+}
+
+#programsFlex>div{
+  background-color: #9929de;
+  text-align: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  flex-wrap: wrap;
+  border: 5px solid white;
+}
+
+#programFlex>div>ul>li{
+  list-style: none;
+}
+
+#programsFlex>div:hover{
+  border: 5px solid rgb(98, 98, 98);
+  transition: 1s;
+  transform:scale(2);
+  z-index: 1;
+}
+
+#programsFlex>div>b{
+  font-size: 25px;
+  background-color: #180038cb;
+  color: rgba(255, 255, 255, 0.773);
+  
+}
+
+  /* Footer */
+  footer{
+    width: 100vw;
+    height: 150px;
+    position: absolute;
+    top: 100%;
+    background-color: rgb(0, 0, 0);
+  }
+
+  footer>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 1.5%;
+  }
+
+  footer>div>p{
+    color: grey;
+  }
+
+ #lL{
+    width: 100px;
+ }
+
+ footer>section>p{
+    color: gray;
+ }
+
+ footer>section{
+    display: flex;
+    justify-content: center;
+ }
+
+ #cmon{
+  margin-top: 1%;
+ }
